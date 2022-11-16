@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body, html {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: rgb(251, 252, 243); 
+  color: rgb(34, 34, 34);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.brownie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 650px;
+  border-radius: 4px;
+}
+
+.title {
+  padding-top: 1%;
+  margin-left: 1.8%;
+  
+}
+
+.ingredients {
+  list-style-type: square;
+  
+}
+
+.method {
+  margin-left: 1.8%;
+  margin-right: 4%;
+  
+}
+
+.source {
+  margin-left: 1.8%;
+  font-style: italic;
+}
+
+.intro {
+  text-align: center;
+  
+}
+
+.brownie-main {
+  width: 100%;
+  height: 50%;
+  border-radius: 2px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(185, 203, 204);
+  background-color: rgb(235, 243, 243);
+  border-radius: 6px;
+  font-family: 'Trebuchet MS', sans-serif
+}
+
+textarea {
+  width: 100%;
+  height: 75px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(185, 203, 204);
+  border-radius: 6px;
+  background-color: rgb(235, 243, 243);
+  resize: none;
+  font-family: 'Trebuchet MS', sans-serif
+}
+
+.gimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 650px;
+  border-radius: 3px;
+}
+
+.gtitle {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.gcomments {
+  text-align: center;
+  font-style: italic;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.add-gallery {
+  font-family: 'Trebuchet MS', sans-serif
+}
+
+.header {
+  margin-top: 4.5%;
+}
+
+a {
+  color: black;
+}
+
+.gap {
+  padding-bottom: 1%;
 }
